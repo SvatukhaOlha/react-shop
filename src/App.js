@@ -10,17 +10,18 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import { ContextProvider } from './context'
 
 function App() {
 
 
   return (
     <>
-    <Header />
-   
+      <Header />
+      <ContextProvider>
         <Shop />
-
-    <Footer />
+      </ContextProvider>
+      <Footer />
     </>
   );
 }

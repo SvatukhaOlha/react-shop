@@ -7,7 +7,7 @@ function Footer() {
           <div className='container'>
             {new Date().getFullYear()} Copyright Text
             <a
-              href='https://github.com/SvatukhaOlha/react-shop'
+              href='https://github.io/SvatukhaOlha/react-shop'
               className='grey-text text-lighten-4 right'
               target='_blank'
             >
